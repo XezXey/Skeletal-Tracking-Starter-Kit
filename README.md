@@ -67,5 +67,8 @@ python prepare-submission.py -i dummy-solution.npz
 ## 🤝 Contributing
 If you find a bug or have suggestions for improvements, feel free to submit a pull request or open an issue.
 
+## Acknowledgement
+We use [4DHuman](https://github.com/shubham-goel/4D-Humans/tree/main) in the `preprocess.py` for estimating both 2D and 3D skeletons from bounding boxes. We appreciate the contributions of the developers and the broader research community in advancing human pose estimation.
+
 ## 📜 License
 This project is licensed under the MIT License.
