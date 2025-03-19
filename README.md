@@ -5,7 +5,7 @@ This repository provides a **naïve baseline** for the **FIFA Skeletal Tracking 
 ## 📌 Features
 - **Baseline Implementation**: A simple approach for 3D skeletal tracking.
 - **Camera Pose Estimation**: Computes camera transformations from bounding box correspondences.
-- **Lane Line Refinement**: Improves camera rotation using detected lane lines.
+- **Field Markings Refinement**: Improves camera rotation using detected Field Markings.
 - **Pose Projection & Optimization**: Projects 3D skeletons onto 2D images and refines translation via optimization.
 
 ## 🚀 Getting Started
