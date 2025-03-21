@@ -41,7 +41,7 @@ data/
 - **`skel_2d.npz`**: Contains estimated 2D skeletal keypoints. 
 - **`skel_3d.npz`**: Contains estimated 3D skeletal keypoints. 
 
-You can find details about the `cameras`, `bounding boxes`, and `images` on the **Kaggle** page. For `skel_2d.npz` and `skel_3d.npz`, you can generate them automatically using the provided `preprocess.py` script. Alternatively, we have also uploaded preprocessed data [here](google-drive-link).
+You can find details about the `cameras`, `bounding boxes`, and `images` on the **Kaggle** page. For `skel_2d.npz` and `skel_3d.npz`, you can generate them automatically using the provided `preprocess.py` script. Alternatively, we have also uploaded preprocessed data [here](https://drive.google.com/drive/folders/12bu0Xmp3-euajRxIxYO92HswWWUtH-u1?usp=sharing).
 
 ### 📺 Sample Visualization
 To help you visualize the results, we provide a short sample sequence in `media/sample.mp4`. 
