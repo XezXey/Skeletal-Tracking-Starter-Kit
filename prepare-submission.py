@@ -18,7 +18,7 @@ def npz_to_submission(input_file, submission_path, drop_na=False, add_row_id=Fal
     rows = []
     # data.files gives you all the keys (sequence names)
     for seq_name in data.files:
-        arr = data[seq_name]  # shape: (NUM_FRAMES, NUM_PERSONS, NUM_JOINTS, 3)
+        arr = data[seq_name].transpose(1, 0, 2, 3)  # shape: (NUM_FRAMES, NUM_PERSONS, NUM_JOINTS, 3)
         num_frames, num_persons, num_joints, _ = arr.shape
         # Iterate through each index to extract coordinates
         for frame in range(num_frames):
